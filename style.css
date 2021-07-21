@@ -5,7 +5,9 @@
 h1 {
   font-size: 50px;
   font-weight: 600;
-  
+}
+.orange-color {
+  color: orange;
 }
 .flexible-container {
   display: flex;
@@ -22,8 +24,15 @@ h1 {
   background-repeat: no-repeat;
   background-position: right;
 }
-.experience > h1{
-    padding-left: 5%;
+.experience
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 60%;
+}
+.experience > h1 {
+  padding-left: 5%;
+  margin-bottom: 30px;
 }
 .half-width {
   width: 50%;
@@ -46,4 +55,17 @@ p {
 }
 .link-button:hover {
   background-image: linear-gradient(to left, orange, tomato);
+}
+.ex-div {
+  box-shadow: 0 3px 25px 0 #00000018;
+  margin-left: 5%;
+  margin-right: 50px;
+  border-left: 8px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1 ;
+  background-color: azure;
+}
+footer p{
+    text-align: center;
+    margin: 40px 0;
 }
