@@ -2,68 +2,73 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
-h1 {
-  font-size: 50px;
-  font-weight: 600;
-}
-.orange-color {
-  color: orange;
-}
 .flexible-container {
   display: flex;
-  margin-bottom: 30px;
   align-items: center;
-}
-.top-section {
-  background-image: url(images/top-banner.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.dream-big {
-  background-image: url(images/dream-bg.png);
-  background-repeat: no-repeat;
-  background-position: right;
-}
-.experience
-{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: 0% 60%;
-}
-.experience > h1 {
-  padding-left: 5%;
-  margin-bottom: 30px;
 }
 .half-width {
   width: 50%;
   padding: 5%;
 }
-.half-width img {
+.half-width > img {
   width: 100%;
 }
-p {
-  margin-bottom: 20px;
+h1 {
+  font-size: 50px;
+  font-weight: 600;
 }
-.link-button {
+h2{
+    font-size: 40px;
+}
+.half-width > p{
+    margin-bottom: 35px;
+}
+section{
+    margin-bottom: 50px;
+}
+.top-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 60%;
+}
+.orange-color {
+  color: orange;
+}
+.button-link {
   color: #fff;
   padding: 12px 40px;
+  border-radius: 6px;
   background-image: linear-gradient(to right, orange, tomato);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  border-radius: 6px;
 }
-.link-button:hover {
-  background-image: linear-gradient(to left, orange, tomato);
+.button-link:hover{
+    background-image: linear-gradient(to left, orange, tomato);
 }
-.ex-div {
-  box-shadow: 0 3px 25px 0 #00000018;
-  margin-left: 5%;
-  margin-right: 50px;
-  border-left: 8px solid;
-  border-image: linear-gradient(blue, cyan);
-  border-image-slice: 1 ;
-  background-color: azure;
+.experience > h1{
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+.experience-items{
+    margin-left: 5%;
+    margin-right: 4%;
+    padding: 5%;
+    box-shadow: 4px 5px 25px rgba(0, 0, 0, 0.25);
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+    background-color: #F0FFFF;
 }
 footer p{
     text-align: center;
